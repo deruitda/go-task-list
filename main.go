@@ -2,9 +2,14 @@ package main
 
 import (
 	"net/http"
+	"task-list/task"
 
 	"github.com/gin-gonic/gin"
 )
+
+var tasks = []task.Task{
+	{Title: "asdf", Content: "jfjfjf"},
+}
 
 // album represents data about a record album.
 type album struct {
