@@ -1,4 +1,4 @@
-package taskHandler
+package handlers
 
 import (
 	"net/http"
